@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>861</width>
+    <height>858</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>project2</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>531</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 85, 127);
+background-color: rgb(255, 255, 255);
+font: 75 italic 24pt &quot;Noto Sans&quot;;
+text-decoration: underline;</string>
+   </property>
+   <property name="text">
+    <string>Predict Hepatitis Reason Type</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="alp">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>250</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="alb">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>200</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sex_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="age_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>700</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 255);
+background-color: rgb(170, 255, 127);
+font: 75 16pt &quot;Rockwell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Predict</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="result">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>780</y>
+     <width>691</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);
+font: 75 16pt &quot;Noto Naskh Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Result :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Age :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="alt">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>300</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ast">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>350</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bil">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>400</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="che">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>450</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="chol">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>500</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="crea">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>550</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>140</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sex :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ALB :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ALP :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>290</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ALT :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>AST :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>390</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>BIL :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CHE :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>490</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CHOL :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>540</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CREA :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>590</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>GGT :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ggt">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>600</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="prot">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>650</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>640</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 170, 0);
+font: 75 20pt &quot;Sitka Small&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PROT :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
